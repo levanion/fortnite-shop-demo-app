@@ -1,0 +1,14 @@
+.main {
+  /* position: fixed; */
+  padding-left: 10rem;
+}
+
+.main li {
+  margin-bottom: 15px;
+  color: rgb(201, 201, 201);
+  font-size: large;
+}
+
+.main li::marker {
+  content: "▶";
+}

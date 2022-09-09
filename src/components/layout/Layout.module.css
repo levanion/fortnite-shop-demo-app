@@ -1,0 +1,36 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainNav {
+  position: sticky;
+}
+
+.main {
+  display: flex;
+  width: 90%;
+}
+
+.secondNav {
+  width: 20%;
+}
+
+.children {
+  width: 80%;
+  padding-right: 100px;
+}
+
+@media (max-width: 1300px) {
+  .secondNav {
+    display: none;
+  }
+  .children {
+    width: 100%;
+    padding-right: 0;
+    margin-left: 0;
+  }
+  .main {
+    width: 100%;
+  }
+}

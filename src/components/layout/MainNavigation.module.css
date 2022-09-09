@@ -1,0 +1,169 @@
+.header {
+  margin: 5rem;
+  margin-top: 2.5rem;
+  background: transparent;
+}
+
+.header nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.header .section1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .section2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.header .section2 img {
+  margin: -0.3rem;
+  width: 40px;
+  height: 40px;
+}
+
+.header .section2 img:hover {
+  opacity: 0.7;
+}
+
+.header .section3 {
+  display: flex;
+  margin-top: 50px;
+  align-self: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(70, 70, 70);
+  border-radius: 50px;
+  padding: 30px;
+}
+
+@media (max-width: 1200px) {
+  .header .section3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .header .section3 div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .header .section3 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.section3 div {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.section3 h3 {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.section3 label {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.header .destination {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section4 {
+  background-color: transparent;
+  height: 50px;
+  width: 40%;
+  align-self: center;
+  margin-top: 30px;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search label {
+  position: absolute;
+  color: white;
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+.search label img {
+  margin-right: 10px;
+}
+
+.search input {
+  background-color: transparent;
+  width: 100%;
+  height: 45px;
+  color: white;
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding-left: 100px;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header li {
+  margin-left: 0.5rem;
+}
+
+.epicLogo:hover {
+  opacity: 0.6;
+}
+
+.section3 .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section3 .logo img {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 25px;
+}
+
+.section3 .logo img:hover {
+  opacity: 0.5;
+}
+
+.extra {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: white;
+  justify-content: center;
+}
+
+.extra div {
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.extra div:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}

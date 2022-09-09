@@ -1,0 +1,52 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  flex-basis: 30%;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.item header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.item header .mainImage {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.item header .secondaryImage {
+  position: absolute;
+  margin-bottom: 20px;
+}
+
+.item header .secondaryText {
+  align-self: flex-start;
+  position: absolute;
+  margin-top: 30px;
+  background-color: rgba(66, 66, 66, 0.596);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.item header .secondaryText p {
+  margin: 0;
+}
+
+.extra {
+  display: flex;
+  margin-top: 10px;
+}
+
+.extra div {
+  margin-right: 10px;
+}
+
+.extra div:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
